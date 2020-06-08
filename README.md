@@ -7,7 +7,7 @@ For this test, you will be working on a small piece of Perx architecture. When i
 Real-time of course feels better but it might not be easy to achieve depending on our clients existing infrastructure.
 
 This test focuses on the batch upload. 
-> You need to build an infrastructure which *automatically* picks-up new files from an s3 bucket and send the events to an sqs queue.
+> You need to build an AWS infrastructure which *automatically* picks-up new files from an s3 bucket and send the events to an sqs queue.
 
 ## Requirements
 * It should support both csv or json files.
