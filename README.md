@@ -3,6 +3,7 @@
 For this test, you will be working on a small piece of Perx architecture. When it comes to integrating our solution in our clients existing infrastructure. There are 2 possibilities, 
 * real time using API
 * by batch using a file upload
+
 Real-time of course feels better but it might not be easy to achieve depending on our clients existing infrastructure.
 
 This test focuses on the batch upload. 
