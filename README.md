@@ -13,7 +13,7 @@ This test focuses on the batch upload.
 * It should support both csv or json files.
 * For csv, it should generate one event per row.
 * For json, if the content is an array, it should send one event per array item, otherwise it should send just one event.
-* You can use any aws service, lambda, step functions, ...
+* You can use any aws service: lambda, step functions, glue...
 * For the infrastructure code, you can use any of cloud formation, sam, serverless or terraform.
 * If you write some lambda code, you can use any language supported by lambda.
 * The setup of the s3 bucket and the sqs queue should be part of the deliverable.
